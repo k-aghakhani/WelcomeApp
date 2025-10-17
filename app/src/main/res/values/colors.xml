@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Colors -->
+    <color name="coral_primary">#FF9A9A</color>
+    <color name="background_coral">#FFB5B5</color>
+
+    <!-- Text Colors -->
+    <color name="text_dark">#2D2D2D</color>
+    <color name="text_gray">#9E9E9E</color>
+    <color name="text_light_gray">#BDBDBD</color>
+
+    <!-- Input Colors -->
+    <color name="input_border">#E8E8E8</color>
+    <color name="input_background">#FFFFFF</color>
+
+    <!-- Background Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="pattern_light">#FFD1D1</color>
+
+    <!-- Status Bar -->
+    <color name="status_bar">#FFB5B5</color>
 </resources>

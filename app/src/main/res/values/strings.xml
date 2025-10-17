@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">WelcomeApp</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_description">Lorem ipsum dolor sit amet consectetur.\nLorem id sit</string>
+    <string name="continue_button">Continue</string>
+
+    <!-- Sign In Screen -->
+    <string name="sign_in_title">Sign in</string>
+    <string name="email_label">Email</string>
+    <string name="email_hint">demo@email.com</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">enter your password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_button">Login</string>
+    <string name="dont_have_account">Don\'t have an Account ? </string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_full">Don\'t have an Account ? <font color="#FF9A9A">Sign up</font></string>
 </resources>
