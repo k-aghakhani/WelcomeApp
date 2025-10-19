@@ -244,7 +244,7 @@ Have questions or suggestions? Feel free to reach out!
 - Submit a pull request
 - Star the repository if you like it!
 
-*Email: kiarash1988@gmail.com  *
+Email: kiarash1988@gmail.com  
 ---
 
 <div align="center">
@@ -254,5 +254,6 @@ Have questions or suggestions? Feel free to reach out!
   *Happy Coding!* 🚀
 
 </div>
+
 
 
