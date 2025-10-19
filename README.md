@@ -227,6 +227,7 @@ copies or substantial portions of the Software.
 
 - GitHub: [@k-aghakhani](https://github.com/k-aghakhani)
 - Repository: [WelcomeApp](https://github.com/k-aghakhani/WelcomeApp)
+- Email: kiarash1988@gmail.com
 
 ---
 
@@ -243,8 +244,6 @@ Have questions or suggestions? Feel free to reach out!
 - Open an issue on GitHub
 - Submit a pull request
 - Star the repository if you like it!
-
-Email: kiarash1988@gmail.com  
 ---
 
 <div align="center">
@@ -254,6 +253,7 @@ Email: kiarash1988@gmail.com
   *Happy Coding!* 🚀
 
 </div>
+
 
 
 
