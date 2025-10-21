@@ -120,6 +120,9 @@ public class SignInActivity extends AppCompatActivity {
                 // Here you can navigate to Sign Up activity
                 // Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
                 // startActivity(intent);
+                Intent intent = new Intent(SignInActivity.this, SignupActivity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
 
             @Override
@@ -132,6 +135,7 @@ public class SignInActivity extends AppCompatActivity {
 
         int startIndex = fullText.indexOf("Sign up");
         spannableString.setSpan(clickableSpan, startIndex, fullText.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
 
         signUpText.setText(spannableString);
         signUpText.setMovementMethod(LinkMovementMethod.getInstance());
