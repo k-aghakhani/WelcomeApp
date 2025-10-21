@@ -1,5 +1,6 @@
 package com.aghakhani.welcomeapp;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.InputType;
@@ -96,6 +97,10 @@ public class SignInActivity extends AppCompatActivity {
                     // Login successful
                     boolean rememberMe = rememberCheckbox.isChecked();
                     Toast.makeText(SignInActivity.this, "Login successful!", Toast.LENGTH_SHORT).show();
+
+                    Intent intent = new Intent(SignInActivity.this, WelcomeActivity.class);
+                    startActivity(intent);
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
 
                     // Here you can add your login logic
                     // For example: navigate to main activity
