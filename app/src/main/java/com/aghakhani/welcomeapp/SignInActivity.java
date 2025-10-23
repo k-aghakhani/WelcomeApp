@@ -120,7 +120,7 @@ public class SignInActivity extends AppCompatActivity {
                 // Here you can navigate to Sign Up activity
                 // Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
                 // startActivity(intent);
-                Intent intent = new Intent(SignInActivity.this, SignupActivity.class);
+                Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
                 startActivity(intent);
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }

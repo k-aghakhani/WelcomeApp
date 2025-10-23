@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WelcomeApp">
         <activity
-            android:name=".SignupActivity"
+            android:name=".SignUpActivity"
             android:exported="true">
 
         </activity>
