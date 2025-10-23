@@ -162,7 +162,6 @@ Contributions are welcome! Here's how you can help:
 5. **Open a Pull Request**
 
 ### Ideas for Contribution
-- [ ] Add Sign Up screen
 - [ ] Implement Firebase Authentication
 - [ ] Add biometric authentication
 - [ ] Create dark mode theme
@@ -178,7 +177,7 @@ Contributions are welcome! Here's how you can help:
 - [x] Sign in screen design
 - [x] Email validation
 - [x] Password visibility toggle
-- [ ] Sign up screen
+- [x] Sign up screen
 - [ ] Forgot password screen
 - [ ] Backend integration
 - [ ] SQLite local storage
@@ -253,6 +252,7 @@ Have questions or suggestions? Feel free to reach out!
   *Happy Coding!* 🚀
 
 </div>
+
 
 
 
