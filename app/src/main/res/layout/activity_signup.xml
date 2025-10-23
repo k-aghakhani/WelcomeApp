@@ -304,6 +304,7 @@
                     android:checked="false" />
 
                 <TextView
+                    android:text="I agree to the Terms and Conditions"
                     android:id="@+id/termsText"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
