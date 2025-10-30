@@ -41,6 +41,8 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         resetPasswordButton = findViewById(R.id.resetPasswordButton);
         backToSignInText = findViewById(R.id.backToSignInText);
 
+        // Setup back to sign in text
+        setupBackToSignInText();
 
         // Back button click
         backButton.setOnClickListener(new View.OnClickListener() {
@@ -81,5 +83,37 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         });
     }
 
+    private void setupBackToSignInText() {
+        String fullText = "Remember your password? Sign in";
+        SpannableString spannableString = new SpannableString(fullText);
 
+        ClickableSpan clickableSpan = new ClickableSpan() {
+            @Override
+            public void onClick(View widget) {
+                // Go back to Sign In
+                finish();
+            }
+
+            @Override
+            public void updateDrawState(TextPaint ds) {
+                super.updateDrawState(ds);
+                ds.setColor(ContextCompat.getColor(ForgotPasswordActivity.this, R.color.coral_primary));
+                ds.setUnderlineText(false);
+            }
+        };
+
+        int startIndex = fullText.indexOf("Sign in");
+        spannableString.setSpan(clickableSpan, startIndex, fullText.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        backToSignInText.setText(spannableString);
+        backToSignInText.setMovementMethod(LinkMovementMethod.getInstance());
+        backToSignInText.setHighlightColor(Color.TRANSPARENT);
+    }
+/*
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }*/
 }
