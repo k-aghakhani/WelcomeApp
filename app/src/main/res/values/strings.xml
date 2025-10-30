@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">WelcomeApp</string>
+
     <!-- Welcome Screen -->
     <string name="welcome_title">Welcome</string>
     <string name="welcome_description">Lorem ipsum dolor sit amet consectetur.\nLorem id sit</string>
     <string name="continue_button">Continue</string>
-
 
     <!-- Sign In Screen -->
     <string name="sign_in_title">Sign in</string>
@@ -28,4 +28,11 @@
     <string name="sign_up_button">Sign Up</string>
     <string name="already_have_account">Already have an Account ? </string>
     <string name="sign_in">Sign in</string>
+
+    <!-- Forgot Password Screen -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_description">Enter your email address and we will send you a link to reset your password.</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="remember_password">Remember your password? </string>
+    <string name="back_to_sign_in">Remember your password? <font color="#FF9A9A">Sign in</font></string>
 </resources>

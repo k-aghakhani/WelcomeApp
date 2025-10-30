@@ -79,6 +79,10 @@ public class SignInActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(SignInActivity.this, "Forgot Password clicked", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(SignInActivity.this, ForgotPasswordActivity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
             }
         });
 
