@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">WelcomeApp</string>
 
+    <!-- Splash Screen -->
+    <string name="app_tagline">Your journey starts here</string>
+    <string name="app_version">v1.0.0</string>
+    <string name="loading_indicator">Loading...</string>
+
     <!-- Welcome Screen -->
     <string name="welcome_title">Welcome</string>
     <string name="welcome_description">Lorem ipsum dolor sit amet consectetur.\nLorem id sit</string>

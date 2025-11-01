@@ -29,5 +29,12 @@
         <item name="android:textColorPrimary">@color/text_dark</item>
         <item name="android:textColorSecondary">@color/text_gray</item>
     </style>
+    <!-- Splash Screen Theme -->
+    <style name="Theme.WelcomeApp.Splash" parent="Theme.WelcomeApp">
+        <item name="android:windowBackground">@drawable/splash_gradient_background</item>
+        <item name="android:statusBarColor">@color/coral_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
 
 </resources>
