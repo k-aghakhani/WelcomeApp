@@ -161,13 +161,13 @@ public class SplashActivity extends AppCompatActivity {
         scaleY1.start();
 
         // Scale animation for circle 2 - با ObjectAnimator
-        ObjectAnimator scaleX2 = ObjectAnimator.ofFloat(circle2, "scaleX", 1f, 2.3f);
+        ObjectAnimator scaleX2 = ObjectAnimator.ofFloat(circle2, "scaleX", 1f, 2.5f);
         scaleX2.setDuration(2500);
         scaleX2.setRepeatCount(ObjectAnimator.INFINITE);
         scaleX2.setRepeatMode(ObjectAnimator.REVERSE);
         scaleX2.start();
 
-        ObjectAnimator scaleY2 = ObjectAnimator.ofFloat(circle2, "scaleY", 1f, 2.3f);
+        ObjectAnimator scaleY2 = ObjectAnimator.ofFloat(circle2, "scaleY", 1f, 2.5f);
         scaleY2.setDuration(2500);
         scaleY2.setRepeatCount(ObjectAnimator.INFINITE);
         scaleY2.setRepeatMode(ObjectAnimator.REVERSE);
